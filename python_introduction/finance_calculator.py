@@ -1,9 +1,9 @@
 #script that calculates user's savings over a period
 
 monthly_income = int(input("Enter your monthly income: "))
-total_monthly_expense = int(input("Enter your total monthly expense: "))
+monthly_expenses = int(input("Enter your total monthly expense: "))
 
-monthly_savings = monthly_income - total_monthly_expense
+monthly_savings = monthly_income - monthly_expenses
 
 projected_savings = monthly_savings * 12 + int((monthly_savings * 12 * 0.05))
 
